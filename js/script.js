@@ -43,9 +43,9 @@ $(document).ready(function(){
 
     function show_scrl_btn() {
         if ($(document).scrollTop() > 500) {
-            $('.up-button').fadeIn(300);
+            $('.up-button').fadeIn(200);
         } else {
-            $('.up-button').fadeOut(300);
+            $('.up-button').fadeOut(200);
         }
     }
 
